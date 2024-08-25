@@ -50,6 +50,7 @@ build*
 !docs/build.md
 /libllama.so
 /llama-*
+/vulkan-shaders-gen
 android-ndk-*
 arm_neon.h
 cmake-build-*
@@ -60,6 +61,11 @@ llama-batched-swift
 /rpc-server
 out/
 tmp/
+
+# Deprecated
+
+/main
+/server
 
 # CI
 
@@ -73,7 +79,6 @@ models-mnt
 !models/ggml-vocab-*.gguf*
 
 # Zig
-
 zig-out/
 zig-cache/
 
@@ -124,3 +129,6 @@ poetry.toml
 
 # Scripts
 !/scripts/install-oneapi.bat
+
+# Test models for lora adapters
+/lora-tests
