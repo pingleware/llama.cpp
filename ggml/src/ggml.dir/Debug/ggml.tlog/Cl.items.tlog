@@ -1,0 +1,6 @@
+C:\Users\press\projects\llama.cpp\ggml\src\ggml.c;C:\Users\press\projects\llama.cpp\ggml\src\ggml.dir\Debug\ggml.obj
+C:\Users\press\projects\llama.cpp\ggml\src\ggml-alloc.c;C:\Users\press\projects\llama.cpp\ggml\src\ggml.dir\Debug\ggml-alloc.obj
+C:\Users\press\projects\llama.cpp\ggml\src\ggml-backend.c;C:\Users\press\projects\llama.cpp\ggml\src\ggml.dir\Debug\ggml-backend.obj
+C:\Users\press\projects\llama.cpp\ggml\src\ggml-quants.c;C:\Users\press\projects\llama.cpp\ggml\src\ggml.dir\Debug\ggml-quants.obj
+C:\Users\press\projects\llama.cpp\ggml\src\llamafile\sgemm.cpp;C:\Users\press\projects\llama.cpp\ggml\src\ggml.dir\Debug\sgemm.obj
+C:\Users\press\projects\llama.cpp\ggml\src\ggml-aarch64.c;C:\Users\press\projects\llama.cpp\ggml\src\ggml.dir\Debug\ggml-aarch64.obj

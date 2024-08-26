@@ -1,0 +1,7 @@
+C:\Users\press\projects\llama.cpp\common\common.cpp;C:\Users\press\projects\llama.cpp\common\common.dir\Release\common.obj
+C:\Users\press\projects\llama.cpp\common\sampling.cpp;C:\Users\press\projects\llama.cpp\common\common.dir\Release\sampling.obj
+C:\Users\press\projects\llama.cpp\common\console.cpp;C:\Users\press\projects\llama.cpp\common\common.dir\Release\console.obj
+C:\Users\press\projects\llama.cpp\common\grammar-parser.cpp;C:\Users\press\projects\llama.cpp\common\common.dir\Release\grammar-parser.obj
+C:\Users\press\projects\llama.cpp\common\json-schema-to-grammar.cpp;C:\Users\press\projects\llama.cpp\common\common.dir\Release\json-schema-to-grammar.obj
+C:\Users\press\projects\llama.cpp\common\train.cpp;C:\Users\press\projects\llama.cpp\common\common.dir\Release\train.obj
+C:\Users\press\projects\llama.cpp\common\ngram-cache.cpp;C:\Users\press\projects\llama.cpp\common\common.dir\Release\ngram-cache.obj

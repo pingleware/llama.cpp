@@ -1,0 +1,160 @@
+^C:\USERS\PRESS\PROJECTS\LLAMA.CPP\CMAKEFILES\2148CB2165FF79F42B8280AB8BABFCDE\COLORTHEMES.CSS.HPP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -DINPUT=C:/Users/press/projects/llama.cpp/examples/server/public/colorthemes.css -DOUTPUT=C:/Users/press/projects/llama.cpp/examples/server/colorthemes.css.hpp -P C:/Users/press/projects/llama.cpp/scripts/xxd.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\PRESS\PROJECTS\LLAMA.CPP\CMAKEFILES\2148CB2165FF79F42B8280AB8BABFCDE\STYLE.CSS.HPP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -DINPUT=C:/Users/press/projects/llama.cpp/examples/server/public/style.css -DOUTPUT=C:/Users/press/projects/llama.cpp/examples/server/style.css.hpp -P C:/Users/press/projects/llama.cpp/scripts/xxd.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\PRESS\PROJECTS\LLAMA.CPP\CMAKEFILES\2148CB2165FF79F42B8280AB8BABFCDE\THEME-BEENINORDER.CSS.HPP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -DINPUT=C:/Users/press/projects/llama.cpp/examples/server/public/theme-beeninorder.css -DOUTPUT=C:/Users/press/projects/llama.cpp/examples/server/theme-beeninorder.css.hpp -P C:/Users/press/projects/llama.cpp/scripts/xxd.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\PRESS\PROJECTS\LLAMA.CPP\CMAKEFILES\2148CB2165FF79F42B8280AB8BABFCDE\THEME-KETIVAH.CSS.HPP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -DINPUT=C:/Users/press/projects/llama.cpp/examples/server/public/theme-ketivah.css -DOUTPUT=C:/Users/press/projects/llama.cpp/examples/server/theme-ketivah.css.hpp -P C:/Users/press/projects/llama.cpp/scripts/xxd.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\PRESS\PROJECTS\LLAMA.CPP\CMAKEFILES\2148CB2165FF79F42B8280AB8BABFCDE\THEME-MANGOTANGO.CSS.HPP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -DINPUT=C:/Users/press/projects/llama.cpp/examples/server/public/theme-mangotango.css -DOUTPUT=C:/Users/press/projects/llama.cpp/examples/server/theme-mangotango.css.hpp -P C:/Users/press/projects/llama.cpp/scripts/xxd.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\PRESS\PROJECTS\LLAMA.CPP\CMAKEFILES\2148CB2165FF79F42B8280AB8BABFCDE\THEME-PLAYGROUND.CSS.HPP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -DINPUT=C:/Users/press/projects/llama.cpp/examples/server/public/theme-playground.css -DOUTPUT=C:/Users/press/projects/llama.cpp/examples/server/theme-playground.css.hpp -P C:/Users/press/projects/llama.cpp/scripts/xxd.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\PRESS\PROJECTS\LLAMA.CPP\CMAKEFILES\2148CB2165FF79F42B8280AB8BABFCDE\THEME-POLARNIGHT.CSS.HPP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -DINPUT=C:/Users/press/projects/llama.cpp/examples/server/public/theme-polarnight.css -DOUTPUT=C:/Users/press/projects/llama.cpp/examples/server/theme-polarnight.css.hpp -P C:/Users/press/projects/llama.cpp/scripts/xxd.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\PRESS\PROJECTS\LLAMA.CPP\CMAKEFILES\2148CB2165FF79F42B8280AB8BABFCDE\THEME-SNOWSTORM.CSS.HPP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -DINPUT=C:/Users/press/projects/llama.cpp/examples/server/public/theme-snowstorm.css -DOUTPUT=C:/Users/press/projects/llama.cpp/examples/server/theme-snowstorm.css.hpp -P C:/Users/press/projects/llama.cpp/scripts/xxd.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\PRESS\PROJECTS\LLAMA.CPP\CMAKEFILES\2148CB2165FF79F42B8280AB8BABFCDE\INDEX.HTML.HPP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -DINPUT=C:/Users/press/projects/llama.cpp/examples/server/public/index.html -DOUTPUT=C:/Users/press/projects/llama.cpp/examples/server/index.html.hpp -P C:/Users/press/projects/llama.cpp/scripts/xxd.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\PRESS\PROJECTS\LLAMA.CPP\CMAKEFILES\2148CB2165FF79F42B8280AB8BABFCDE\INDEX-NEW.HTML.HPP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -DINPUT=C:/Users/press/projects/llama.cpp/examples/server/public/index-new.html -DOUTPUT=C:/Users/press/projects/llama.cpp/examples/server/index-new.html.hpp -P C:/Users/press/projects/llama.cpp/scripts/xxd.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\PRESS\PROJECTS\LLAMA.CPP\CMAKEFILES\2148CB2165FF79F42B8280AB8BABFCDE\INDEX.JS.HPP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -DINPUT=C:/Users/press/projects/llama.cpp/examples/server/public/index.js -DOUTPUT=C:/Users/press/projects/llama.cpp/examples/server/index.js.hpp -P C:/Users/press/projects/llama.cpp/scripts/xxd.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\PRESS\PROJECTS\LLAMA.CPP\CMAKEFILES\2148CB2165FF79F42B8280AB8BABFCDE\COMPLETION.JS.HPP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -DINPUT=C:/Users/press/projects/llama.cpp/examples/server/public/completion.js -DOUTPUT=C:/Users/press/projects/llama.cpp/examples/server/completion.js.hpp -P C:/Users/press/projects/llama.cpp/scripts/xxd.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\PRESS\PROJECTS\LLAMA.CPP\CMAKEFILES\2148CB2165FF79F42B8280AB8BABFCDE\SYSTEM-PROMPTS.JS.HPP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -DINPUT=C:/Users/press/projects/llama.cpp/examples/server/public/system-prompts.js -DOUTPUT=C:/Users/press/projects/llama.cpp/examples/server/system-prompts.js.hpp -P C:/Users/press/projects/llama.cpp/scripts/xxd.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\PRESS\PROJECTS\LLAMA.CPP\CMAKEFILES\2148CB2165FF79F42B8280AB8BABFCDE\PROMPT-FORMATS.JS.HPP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -DINPUT=C:/Users/press/projects/llama.cpp/examples/server/public/prompt-formats.js -DOUTPUT=C:/Users/press/projects/llama.cpp/examples/server/prompt-formats.js.hpp -P C:/Users/press/projects/llama.cpp/scripts/xxd.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\PRESS\PROJECTS\LLAMA.CPP\CMAKEFILES\2148CB2165FF79F42B8280AB8BABFCDE\JSON-SCHEMA-TO-GRAMMAR.MJS.HPP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -DINPUT=C:/Users/press/projects/llama.cpp/examples/server/public/json-schema-to-grammar.mjs -DOUTPUT=C:/Users/press/projects/llama.cpp/examples/server/json-schema-to-grammar.mjs.hpp -P C:/Users/press/projects/llama.cpp/scripts/xxd.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\PRESS\PROJECTS\LLAMA.CPP\EXAMPLES\SERVER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/press/projects/llama.cpp -BC:/Users/press/projects/llama.cpp --check-stamp-file C:/Users/press/projects/llama.cpp/examples/server/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

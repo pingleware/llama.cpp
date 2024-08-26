@@ -1,0 +1,6 @@
+C:/Users/press/projects/llama.cpp/src/llama.dir/MinSizeRel/llama.obj
+C:/Users/press/projects/llama.cpp/src/llama.dir/MinSizeRel/llama-vocab.obj
+C:/Users/press/projects/llama.cpp/src/llama.dir/MinSizeRel/llama-grammar.obj
+C:/Users/press/projects/llama.cpp/src/llama.dir/MinSizeRel/llama-sampling.obj
+C:/Users/press/projects/llama.cpp/src/llama.dir/MinSizeRel/unicode.obj
+C:/Users/press/projects/llama.cpp/src/llama.dir/MinSizeRel/unicode-data.obj

@@ -1,0 +1,456 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E0C027D1-4F37-3AAA-9D7E-C2E914BC976E}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>$(SolutionDir)\$(Platform)\$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\press\projects\llama.cpp\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/press/projects/llama.cpp/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/press/projects/llama.cpp -BC:/Users/press/projects/llama.cpp --check-stamp-file C:/Users/press/projects/llama.cpp/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.30\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CTest.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CTestTargets.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CTestUseLaunchers.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\DartConfiguration.tcl.in;C:\Program Files\CMake\share\cmake-3.30\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\press\projects\llama.cpp\CMakeFiles\3.30.2\CMakeCCompiler.cmake;C:\Users\press\projects\llama.cpp\CMakeFiles\3.30.2\CMakeCXXCompiler.cmake;C:\Users\press\projects\llama.cpp\CMakeFiles\3.30.2\CMakeRCCompiler.cmake;C:\Users\press\projects\llama.cpp\CMakeFiles\3.30.2\CMakeSystem.cmake;C:\Users\press\projects\llama.cpp\cmake\build-info.cmake;C:\Users\press\projects\llama.cpp\cmake\git-vars.cmake;C:\Users\press\projects\llama.cpp\cmake\llama-config.cmake.in;C:\Users\press\projects\llama.cpp\cmake\llama.pc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\press\projects\llama.cpp\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/press/projects/llama.cpp/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/press/projects/llama.cpp -BC:/Users/press/projects/llama.cpp --check-stamp-file C:/Users/press/projects/llama.cpp/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.30\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CTest.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CTestTargets.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CTestUseLaunchers.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\DartConfiguration.tcl.in;C:\Program Files\CMake\share\cmake-3.30\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\press\projects\llama.cpp\CMakeFiles\3.30.2\CMakeCCompiler.cmake;C:\Users\press\projects\llama.cpp\CMakeFiles\3.30.2\CMakeCXXCompiler.cmake;C:\Users\press\projects\llama.cpp\CMakeFiles\3.30.2\CMakeRCCompiler.cmake;C:\Users\press\projects\llama.cpp\CMakeFiles\3.30.2\CMakeSystem.cmake;C:\Users\press\projects\llama.cpp\cmake\build-info.cmake;C:\Users\press\projects\llama.cpp\cmake\git-vars.cmake;C:\Users\press\projects\llama.cpp\cmake\llama-config.cmake.in;C:\Users\press\projects\llama.cpp\cmake\llama.pc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\press\projects\llama.cpp\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/press/projects/llama.cpp/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/press/projects/llama.cpp -BC:/Users/press/projects/llama.cpp --check-stamp-file C:/Users/press/projects/llama.cpp/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.30\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CTest.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CTestTargets.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CTestUseLaunchers.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\DartConfiguration.tcl.in;C:\Program Files\CMake\share\cmake-3.30\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\press\projects\llama.cpp\CMakeFiles\3.30.2\CMakeCCompiler.cmake;C:\Users\press\projects\llama.cpp\CMakeFiles\3.30.2\CMakeCXXCompiler.cmake;C:\Users\press\projects\llama.cpp\CMakeFiles\3.30.2\CMakeRCCompiler.cmake;C:\Users\press\projects\llama.cpp\CMakeFiles\3.30.2\CMakeSystem.cmake;C:\Users\press\projects\llama.cpp\cmake\build-info.cmake;C:\Users\press\projects\llama.cpp\cmake\git-vars.cmake;C:\Users\press\projects\llama.cpp\cmake\llama-config.cmake.in;C:\Users\press\projects\llama.cpp\cmake\llama.pc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\press\projects\llama.cpp\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/press/projects/llama.cpp/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/press/projects/llama.cpp -BC:/Users/press/projects/llama.cpp --check-stamp-file C:/Users/press/projects/llama.cpp/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.30\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CTest.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CTestTargets.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CTestUseLaunchers.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\DartConfiguration.tcl.in;C:\Program Files\CMake\share\cmake-3.30\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\press\projects\llama.cpp\CMakeFiles\3.30.2\CMakeCCompiler.cmake;C:\Users\press\projects\llama.cpp\CMakeFiles\3.30.2\CMakeCXXCompiler.cmake;C:\Users\press\projects\llama.cpp\CMakeFiles\3.30.2\CMakeRCCompiler.cmake;C:\Users\press\projects\llama.cpp\CMakeFiles\3.30.2\CMakeSystem.cmake;C:\Users\press\projects\llama.cpp\cmake\build-info.cmake;C:\Users\press\projects\llama.cpp\cmake\git-vars.cmake;C:\Users\press\projects\llama.cpp\cmake\llama-config.cmake.in;C:\Users\press\projects\llama.cpp\cmake\llama.pc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\press\projects\llama.cpp\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\press\projects\llama.cpp\ZERO_CHECK.vcxproj">
+      <Project>{E17523D2-CDF1-377D-A3B3-FF774A30CDD2}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\press\projects\llama.cpp\common\build_info.vcxproj">
+      <Project>{A428332F-B5BD-3D12-AE56-4236C30AC3F3}</Project>
+      <Name>build_info</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\press\projects\llama.cpp\common\common.vcxproj">
+      <Project>{B6971B7A-7F4E-3919-82C3-3248A49A46C1}</Project>
+      <Name>common</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\press\projects\llama.cpp\ggml\src\ggml.vcxproj">
+      <Project>{7C102685-4A3A-378C-971D-2B6F33EA30EF}</Project>
+      <Name>ggml</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\press\projects\llama.cpp\src\llama.vcxproj">
+      <Project>{597237A0-CAF1-34C6-A314-DEE780A00927}</Project>
+      <Name>llama</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\press\projects\llama.cpp\examples\baby-llama\llama-baby-llama.vcxproj">
+      <Project>{59E20238-1EC7-3BA5-9095-39F455620618}</Project>
+      <Name>llama-baby-llama</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\press\projects\llama.cpp\examples\batched\llama-batched.vcxproj">
+      <Project>{12D43861-450C-3D5E-9EDF-DFC199C57085}</Project>
+      <Name>llama-batched</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\press\projects\llama.cpp\examples\batched-bench\llama-batched-bench.vcxproj">
+      <Project>{0385E153-A184-3A7C-B7C5-4A8D28D966E5}</Project>
+      <Name>llama-batched-bench</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\press\projects\llama.cpp\examples\llama-bench\llama-bench.vcxproj">
+      <Project>{C27B35E8-C2F3-3E09-B217-1F6F9E1FAEC5}</Project>
+      <Name>llama-bench</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\press\projects\llama.cpp\examples\benchmark\llama-bench-matmult.vcxproj">
+      <Project>{F6E9FBF0-BB68-3A52-A8B7-1A32DFDA4614}</Project>
+      <Name>llama-bench-matmult</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\press\projects\llama.cpp\examples\main\llama-cli.vcxproj">
+      <Project>{7FFF6FFF-1C39-304D-A252-589672A10869}</Project>
+      <Name>llama-cli</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\press\projects\llama.cpp\examples\convert-llama2c-to-ggml\llama-convert-llama2c-to-ggml.vcxproj">
+      <Project>{EB7AA86B-2700-392C-B1C8-DA6DF210D92F}</Project>
+      <Name>llama-convert-llama2c-to-ggml</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\press\projects\llama.cpp\examples\cvector-generator\llama-cvector-generator.vcxproj">
+      <Project>{09897C2B-A8B4-37E0-80F6-8E376C8A77F1}</Project>
+      <Name>llama-cvector-generator</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\press\projects\llama.cpp\examples\embedding\llama-embedding.vcxproj">
+      <Project>{1C239A06-4C44-3435-8551-8DA7DCDE6C16}</Project>
+      <Name>llama-embedding</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\press\projects\llama.cpp\examples\eval-callback\llama-eval-callback.vcxproj">
+      <Project>{F4482E07-6611-3858-89B6-E511CA510789}</Project>
+      <Name>llama-eval-callback</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\press\projects\llama.cpp\examples\export-lora\llama-export-lora.vcxproj">
+      <Project>{1DEE22B1-310D-3FD3-9D56-4C18C7B3E41A}</Project>
+      <Name>llama-export-lora</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\press\projects\llama.cpp\examples\gbnf-validator\llama-gbnf-validator.vcxproj">
+      <Project>{F2B96837-B63B-37CE-87A8-500F387B8C5C}</Project>
+      <Name>llama-gbnf-validator</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\press\projects\llama.cpp\examples\gguf\llama-gguf.vcxproj">
+      <Project>{B68119BB-395C-3112-8CB8-7AAE5679F181}</Project>
+      <Name>llama-gguf</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\press\projects\llama.cpp\examples\gguf-hash\llama-gguf-hash.vcxproj">
+      <Project>{FDE40F11-FB45-31FD-ADFC-67CE10043324}</Project>
+      <Name>llama-gguf-hash</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\press\projects\llama.cpp\examples\gguf-split\llama-gguf-split.vcxproj">
+      <Project>{08E194FE-8AD8-3902-85C1-8767DC759B6D}</Project>
+      <Name>llama-gguf-split</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\press\projects\llama.cpp\examples\gritlm\llama-gritlm.vcxproj">
+      <Project>{713BE56D-5C17-3E6C-9706-5E377A7A2B48}</Project>
+      <Name>llama-gritlm</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\press\projects\llama.cpp\examples\imatrix\llama-imatrix.vcxproj">
+      <Project>{60D0A1EB-6D5D-36CF-8A95-42458BD41C5D}</Project>
+      <Name>llama-imatrix</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\press\projects\llama.cpp\examples\infill\llama-infill.vcxproj">
+      <Project>{CB17485C-9412-37F0-A117-48DE4AD90E84}</Project>
+      <Name>llama-infill</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\press\projects\llama.cpp\examples\llava\llama-llava-cli.vcxproj">
+      <Project>{AC7C170E-E270-3CAC-92D8-982E90BDD7AC}</Project>
+      <Name>llama-llava-cli</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\press\projects\llama.cpp\examples\lookahead\llama-lookahead.vcxproj">
+      <Project>{8B680088-46C9-3485-B3B5-2B88A47C70C9}</Project>
+      <Name>llama-lookahead</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\press\projects\llama.cpp\examples\lookup\llama-lookup.vcxproj">
+      <Project>{94FE2894-CC3B-350F-9364-DD2F9B1F20EE}</Project>
+      <Name>llama-lookup</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\press\projects\llama.cpp\examples\lookup\llama-lookup-create.vcxproj">
+      <Project>{FF7CEDE7-C374-37C1-9A69-97C9F528B55C}</Project>
+      <Name>llama-lookup-create</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\press\projects\llama.cpp\examples\lookup\llama-lookup-merge.vcxproj">
+      <Project>{0F52D2CF-9E84-3B49-A0DD-9CE56026AC8B}</Project>
+      <Name>llama-lookup-merge</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\press\projects\llama.cpp\examples\lookup\llama-lookup-stats.vcxproj">
+      <Project>{579D8BF5-6E48-3E7D-A102-6668E4530701}</Project>
+      <Name>llama-lookup-stats</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\press\projects\llama.cpp\examples\llava\llama-minicpmv-cli.vcxproj">
+      <Project>{F1B35883-3F1B-34C6-8C58-E12DFD9E13B0}</Project>
+      <Name>llama-minicpmv-cli</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\press\projects\llama.cpp\examples\parallel\llama-parallel.vcxproj">
+      <Project>{48EEFC90-FA5F-3FEC-BA71-A0BC9A53451E}</Project>
+      <Name>llama-parallel</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\press\projects\llama.cpp\examples\passkey\llama-passkey.vcxproj">
+      <Project>{3514E52E-E4DB-37B3-914A-F2093F15B016}</Project>
+      <Name>llama-passkey</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\press\projects\llama.cpp\examples\perplexity\llama-perplexity.vcxproj">
+      <Project>{ED016F98-EBF2-32AB-A934-EA71D2E22707}</Project>
+      <Name>llama-perplexity</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\press\projects\llama.cpp\pocs\vdot\llama-q8dot.vcxproj">
+      <Project>{8750672A-1B4E-39E0-BAED-BEB83AC34C89}</Project>
+      <Name>llama-q8dot</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\press\projects\llama.cpp\examples\quantize\llama-quantize.vcxproj">
+      <Project>{5AA4571D-0E10-33A3-BECE-72B15FE28F14}</Project>
+      <Name>llama-quantize</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\press\projects\llama.cpp\examples\quantize-stats\llama-quantize-stats.vcxproj">
+      <Project>{4693ED7C-98C6-31BF-A9EF-D7146F1B3FFA}</Project>
+      <Name>llama-quantize-stats</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\press\projects\llama.cpp\examples\retrieval\llama-retrieval.vcxproj">
+      <Project>{D606D193-4743-3C9F-8D5C-2B848A476D0D}</Project>
+      <Name>llama-retrieval</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\press\projects\llama.cpp\examples\save-load-state\llama-save-load-state.vcxproj">
+      <Project>{08EFB18E-F75A-3A8D-8628-10EB4C5C18E1}</Project>
+      <Name>llama-save-load-state</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\press\projects\llama.cpp\examples\server\llama-server.vcxproj">
+      <Project>{658BE893-DF42-30F3-B7FA-E1E84F4752A8}</Project>
+      <Name>llama-server</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\press\projects\llama.cpp\examples\simple\llama-simple.vcxproj">
+      <Project>{D3F8AF86-B517-3488-8E34-AFB14D31AA7D}</Project>
+      <Name>llama-simple</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\press\projects\llama.cpp\examples\speculative\llama-speculative.vcxproj">
+      <Project>{54131B21-7E02-3AC0-A66C-36D86E4ED9A7}</Project>
+      <Name>llama-speculative</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\press\projects\llama.cpp\examples\tokenize\llama-tokenize.vcxproj">
+      <Project>{B2B3399E-3FB2-34E2-8955-EE11A3924C1D}</Project>
+      <Name>llama-tokenize</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\press\projects\llama.cpp\pocs\vdot\llama-vdot.vcxproj">
+      <Project>{7093D564-563B-331A-8935-981450B11D58}</Project>
+      <Name>llama-vdot</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\press\projects\llama.cpp\examples\llava\llava.vcxproj">
+      <Project>{FC2B8555-E549-3429-912E-4BCFBA45B89A}</Project>
+      <Name>llava</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\press\projects\llama.cpp\examples\llava\llava_shared.vcxproj">
+      <Project>{EB272AF6-AF37-359F-A88A-10C496ECB66B}</Project>
+      <Name>llava_shared</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\press\projects\llama.cpp\examples\llava\llava_static.vcxproj">
+      <Project>{D6D27152-81FB-368F-B1B6-0E0F0763C976}</Project>
+      <Name>llava_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\press\projects\llama.cpp\examples\gguf-hash\sha1.vcxproj">
+      <Project>{7F339C88-2995-3F68-8940-7EEC596AAA65}</Project>
+      <Name>sha1</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\press\projects\llama.cpp\examples\gguf-hash\sha256.vcxproj">
+      <Project>{81930392-B1CE-380F-893E-E6EAA0F28F68}</Project>
+      <Name>sha256</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\press\projects\llama.cpp\tests\test-autorelease.vcxproj">
+      <Project>{913F5E7D-E99F-37D3-AFB1-081C29C3AB6B}</Project>
+      <Name>test-autorelease</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\press\projects\llama.cpp\tests\test-backend-ops.vcxproj">
+      <Project>{BA0FA13A-5041-33CF-9F22-D2A316525BD8}</Project>
+      <Name>test-backend-ops</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\press\projects\llama.cpp\tests\test-c.vcxproj">
+      <Project>{50BC7603-5DB3-390E-AB57-F4117A079BCF}</Project>
+      <Name>test-c</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\press\projects\llama.cpp\tests\test-chat-template.vcxproj">
+      <Project>{1BF5DAC7-47C0-38D9-8B91-097F62718E30}</Project>
+      <Name>test-chat-template</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\press\projects\llama.cpp\tests\test-grad0.vcxproj">
+      <Project>{5CEAF5BF-3CCF-31D5-9996-E14C703FB60C}</Project>
+      <Name>test-grad0</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\press\projects\llama.cpp\tests\test-grammar-integration.vcxproj">
+      <Project>{77820B0F-25B4-30F8-840B-82288FB9F3E7}</Project>
+      <Name>test-grammar-integration</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\press\projects\llama.cpp\tests\test-grammar-parser.vcxproj">
+      <Project>{78784A3B-23D1-3419-85C1-7E6C730F0BE0}</Project>
+      <Name>test-grammar-parser</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\press\projects\llama.cpp\tests\test-json-schema-to-grammar.vcxproj">
+      <Project>{93162EF7-BA97-3F6F-B751-181EC600D366}</Project>
+      <Name>test-json-schema-to-grammar</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\press\projects\llama.cpp\tests\test-llama-grammar.vcxproj">
+      <Project>{4E6305BE-4A26-3226-A3C2-2D09867CE937}</Project>
+      <Name>test-llama-grammar</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\press\projects\llama.cpp\tests\test-model-load-cancel.vcxproj">
+      <Project>{B22E40B4-71BB-3A6C-A865-C435BE2224A6}</Project>
+      <Name>test-model-load-cancel</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\press\projects\llama.cpp\tests\test-quantize-fns.vcxproj">
+      <Project>{BE9F46A1-08F5-3588-B725-49F0268B1964}</Project>
+      <Name>test-quantize-fns</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\press\projects\llama.cpp\tests\test-quantize-perf.vcxproj">
+      <Project>{3C642679-5887-3BB9-B1DC-2D55818451A6}</Project>
+      <Name>test-quantize-perf</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\press\projects\llama.cpp\tests\test-rope.vcxproj">
+      <Project>{7BD2ADDA-9A1A-370B-AE8B-C376F09C973C}</Project>
+      <Name>test-rope</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\press\projects\llama.cpp\tests\test-sampling.vcxproj">
+      <Project>{8DD9AE11-BC68-3792-9E26-C9CF25870413}</Project>
+      <Name>test-sampling</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\press\projects\llama.cpp\tests\test-tokenizer-0.vcxproj">
+      <Project>{0E3BDAFE-F094-32AC-BDF1-C2133D71FD26}</Project>
+      <Name>test-tokenizer-0</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\press\projects\llama.cpp\tests\test-tokenizer-1-bpe.vcxproj">
+      <Project>{EC1BB5F6-6791-39A9-90A9-37E8B7232151}</Project>
+      <Name>test-tokenizer-1-bpe</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\press\projects\llama.cpp\tests\test-tokenizer-1-spm.vcxproj">
+      <Project>{BB41B947-8CC6-3312-882F-857EAD3CDA93}</Project>
+      <Name>test-tokenizer-1-spm</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\press\projects\llama.cpp\examples\gguf-hash\xxhash.vcxproj">
+      <Project>{E557FDC4-BD5E-3D0A-9EF8-15E9063B20CF}</Project>
+      <Name>xxhash</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

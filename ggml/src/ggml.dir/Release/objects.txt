@@ -1,0 +1,6 @@
+C:/Users/press/projects/llama.cpp/ggml/src/ggml.dir/Release/ggml.obj
+C:/Users/press/projects/llama.cpp/ggml/src/ggml.dir/Release/ggml-alloc.obj
+C:/Users/press/projects/llama.cpp/ggml/src/ggml.dir/Release/ggml-backend.obj
+C:/Users/press/projects/llama.cpp/ggml/src/ggml.dir/Release/ggml-quants.obj
+C:/Users/press/projects/llama.cpp/ggml/src/ggml.dir/Release/sgemm.obj
+C:/Users/press/projects/llama.cpp/ggml/src/ggml.dir/Release/ggml-aarch64.obj
