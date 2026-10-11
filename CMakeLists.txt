@@ -34,6 +34,10 @@ endif()
 
 message("CMAKE_BUILD_TYPE=${CMAKE_BUILD_TYPE}")
 
+if (CLINFERA_OPENCL_LEGACY_MODE)
+    add_definitions(-DCLINFERA_OPENCL_LEGACY_MODE)
+endif()
+
 # Add path to modules
 list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/cmake/")
 

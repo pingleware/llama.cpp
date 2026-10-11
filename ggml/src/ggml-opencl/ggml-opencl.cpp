@@ -6488,11 +6488,15 @@ static std::vector<ggml_backend_device> ggml_opencl_probe_devices(ggml_backend_r
             /* .context = */ dev_ctx.get(),
         });
 
-        if (!ggml_opencl_is_device_supported(&found_devices.back())) {
-            found_devices.pop_back();
-            GGML_LOG_WARN("ggml_opencl: drop unsupported device '%s'.\n", dev->name);
-            continue;
-        }
+        #ifdef CLINFERA_OPENCL_LEGACY_MODE
+            GGML_LOG_WARN("ggml_opencl: legacy mode enabled, accepting device '%s'.\n", dev->name);
+        #else
+            if (!ggml_opencl_is_device_supported(&found_devices.back())) {
+                found_devices.pop_back();
+                GGML_LOG_WARN("ggml_opencl: drop unsupported device '%s'.\n", dev->name);
+                continue;
+            }
+        #endif
 
         g_ggml_backend_opencl_dev_ctxs.push_back(std::move(dev_ctx));
     }
